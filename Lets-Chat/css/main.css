@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+/* Login Page Styles START */
+
+.main{
+    background-image: url('https://img.freepik.com/free-vector/business-teamwork-people-standing-brainstorm-discussing_40876-2657.jpg?w=1380&t=st=1680027784~exp=1680028384~hmac=e757890abbebce34fe5284d73b7dc5ee6971f45f3766c90b436b37f6dc6ff501');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 20px 9px #6865641e;
+    border-radius: 35px;
+    margin: 8% auto;
+    padding: 10px;
+    overflow: hidden;    
+}
+
+.button-box{
+    width: 220px;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 35px;
+    box-shadow: 0 0 20px 9px #220d051a;
+
+}
+
+.toggle-btn{
+    position: relative;
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    font-weight: bolder;    
+    cursor: pointer;
+    
+   
+}
+
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 110px;
+    background: linear-gradient(to right, #34e89e, #0f3443);
+    border-radius: 35px;
+    transition: .5s;
+}
+
+.button-box button:focus{
+    color: #fff;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons i{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.input-group{
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.input-field:focus{
+    border-color: #34e89e;
+}
+.submit-btn{
+    display: block;
+    width: 85%;
+    background: linear-gradient(to right, #34e89e, #0f3443);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 35px;
+    margin: auto;
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input-group a{
+    display: inline-block;
+    text-decoration: none;
+    color: #bbb;
+    margin: 30px 10px 30px 0px;
+    font-size: 13px;
+}
+
+#Login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+/* Login Page Styles END */
+
+/* Home Page Styles START */
+
